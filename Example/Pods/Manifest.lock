@@ -1,0 +1,23 @@
+PODS:
+  - MOCommonTools (0.1.0):
+    - SnapKit (~> 4.2.0)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - MOCommonTools (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  MOCommonTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MOCommonTools: cefc9ce67ac0da4cb1fc342e424eb92ce2ba60c7
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: daddd5d9770f4f469897d549d3dbd6564d762179
+
+COCOAPODS: 1.6.1

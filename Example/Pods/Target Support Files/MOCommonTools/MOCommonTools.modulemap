@@ -1,0 +1,6 @@
+framework module MOCommonTools {
+  umbrella header "MOCommonTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

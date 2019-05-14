@@ -1,0 +1,34 @@
+{
+  "name": "MOCommonTools",
+  "version": "0.1.0",
+  "summary": "A short description of MOCommonTools.",
+  "description": "常用的组建",
+  "homepage": "https://github.com/Caprioce/MOCommonTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Caprioce": "742666613@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Caprioce/MOCommonTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MOCommonTools/Classes/**/*",
+  "resource_bundles": {
+    "MOCommonTools": [
+      "MOCommonTools/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "SnapKit": [
+      "~> 4.2.0"
+    ]
+  }
+}

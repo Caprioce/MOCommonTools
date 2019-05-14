@@ -5,7 +5,6 @@ target 'MOCommonTools_Example' do
 
   target 'MOCommonTools_Tests' do
     inherit! :search_paths
-
     
   end
 end
