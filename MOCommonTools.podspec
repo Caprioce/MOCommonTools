@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MOCommonTools'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MOCommonTools.'
+  s.version          = '0.1.2'
+  s.summary          = '伙伴常用组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-常用的组建
+伙伴常用组件大全
                        DESC
 
   s.homepage         = 'https://github.com/Caprioce/MOCommonTools'
@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
 #   s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'MOCommonTools/Classes/**/*'
   
@@ -36,7 +37,7 @@ Pod::Spec.new do |s|
      'MOCommonTools' => ['MOCommonTools/Assets/*.png']
    }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+#  s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
   s.dependency 'SnapKit', '~> 4.2.0'
 end
